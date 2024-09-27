@@ -18,11 +18,11 @@ describe('You Tube Test', async ()=> {
         const Continue = '//span[text() = "Continue"]';
         await driver.findElement(By.xpath(SignInButton)).click();
         await driver.findElement(By.css(Email)).click();
-        await driver.findElement(By.css(Email)).sendKeys('n48158513@gmail.com');
+        await driver.findElement(By.css(Email)).sendKeys('gmail_id');
         await driver.findElement(By.css(Next)).click();
         await driver.wait(until.stalenessOf(driver.findElement(By.css(Password))));
         let passwordField = await driver.findElement(By.css(Password));
-        await passwordField.sendKeys('Neha@2929');
+        await passwordField.sendKeys('password_id');
         await driver.findElement(By.css(PasswordNext)).click();
     });
 });
