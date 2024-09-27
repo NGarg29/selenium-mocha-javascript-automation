@@ -22,12 +22,12 @@ Before you begin, ensure you have the following installed on your machine:
 1. **Clone the repository**  
    Use the following command to clone the repository:
    ```bash
-   git clone https://github.com/NGarg29/selenium-mocha-javascript-automation.git
+   git clone https://github.com/NGarg29/selenium-mocha-typescript-automation.git
    ```
 
 2. **Navigate to the project directory**  
    ```bash
-   cd selenium-mocha-javascript-automation
+   cd selenium-mocha-typescript-automation
    ```
 
 3. **Install dependencies**  
